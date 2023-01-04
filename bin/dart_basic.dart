@@ -49,8 +49,19 @@ void main() {
     for (var n in intern) n,
     ...intern,
   ];
-
-
   print(names);
 
+  var a = [1, 2, 3];
+  var b = [...a];
+
+  a[0] = 10;
+  print(a);
+  print(b);
+
+  var m = Days.monday;
+  print(m);
+}
+
+enum Days {
+  monday, tuesday, wednesday
 }
