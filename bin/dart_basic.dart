@@ -41,4 +41,16 @@ void main() {
     print(c);
   }
 
+  var isMan = true;
+  var intern = ['Song', 'Santa'];
+
+  var names = [
+    'Bond',
+    for (var n in intern) n,
+    ...intern,
+  ];
+
+
+  print(names);
+
 }
